@@ -10,7 +10,7 @@ This mode draws circles or ellipses, as selected by the two radio buttons.  In e
 
 For circles, the mouse position represents a point on the circumference of the circle as shown: ![](./selectCircle.png)  
 
-For ellipses, the mouse position represents a corner of the ellipse bounding box.  Note the the ellipse axes are always axis-aligned: ![](./selectEllipse.png) 
+For ellipses, the mouse position represents a corner of the ellipse bounding box.  Note the ellipse axes are always axis-aligned: ![](./selectEllipse.png) 
 
 Releasing the mouse will draw 3 the following:  
 1. A circle/ellipse of grid points matching the drawn image
@@ -25,7 +25,8 @@ In this mode, the user selects points on the grid representing a circle, and cli
 
 The initial screen for this mode is as follows: ![](./initialPart2.png)  
 
-After creating a circle, the *Generate* button is relabeled to *Clear* and will clear the marked points and generated circle.  The following image shows an example:  ![](./part2example.png)  
+After creating a circle, the *Generate* button is relabeled to *Clear* and will clear the marked points and generated circle.  
+The following image shows an example: ![](./part2example.png)  
 # Top-level Documentation
 The code has been developed on Visual Studio 2019 and uses Qt 5.12.3.  It should compile and run as is, on Mac and Linux.  
 This section will describe two non-trivial algorithms used by the program.  
