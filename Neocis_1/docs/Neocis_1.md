@@ -25,7 +25,7 @@ In this mode, the user selects points on the grid representing a circle, and cli
 
 The initial screen for this mode is as follows: ![](./initialPart2.png)  
 
-After creating a circle, the *Generate* button is relabeled to *Clear* and will clear the marked points and generated circle.  The following image shows an example:  ![](part2example.png)  
+After creating a circle, the *Generate* button is relabeled to *Clear* and will clear the marked points and generated circle.  The following image shows an example:  ![](./part2example.png)  
 # Top-level Documentation
 The code has been developed on Visual Studio 2019 and uses Qt 5.12.3.  It should compile and run as is, on Mac and Linux.  
 This section will describe two non-trivial algorithms used by the program.  
