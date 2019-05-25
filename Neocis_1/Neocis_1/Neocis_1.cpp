@@ -28,7 +28,7 @@ Neocis_1::Neocis_1(QWidget* parent) :
 }
 
 void Neocis_1::on_pushButtonOnlineHelp_clicked() {
-	QDesktopServices::openUrl(QUrl("https://github.com/highfidelity/hifi/blob/master/tools/nitpick/README.md"));
+	QDesktopServices::openUrl(QUrl("https://github.com/NissimHadar/Hazel/blob/master/Neocis_1/docs/Neocis_1.md"));
 }
 
 void Neocis_1::on_radioButtonCircle_clicked() {

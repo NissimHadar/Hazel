@@ -7,6 +7,7 @@ The initial screen is as follows: ![](./initialScreen.png)
 The initial mode is for _Part 1_; _Part 2_ may be selected by checking the Part 2 check-box.
 ## Part1
 This mode draws circles or ellipses, as selected by the two radio buttons.  In either case, left-click will select the centre of the object.  
+
 For circles, the mouse position represents a point on the circumference of the circle as shown: ![](./selectCircle.png)  
 
 For ellipses, the mouse position represents a corner of the ellipse bounding box.  Note the the ellipse axes are always axis-aligned: ![](./selectEllipse.png) 
@@ -23,6 +24,7 @@ The *Clear* button will remove all objects from the screen
 In this mode, the user selects points on the grid representing a circle, and clicking *Generate* will create a circle that fits that grid.  An accurate algorithm is used when there are exactly 3 points, and Kasa's algorithm is used otherwise:  this algorithm performs well when there are enough points, but doesn't produce the best fit when the points cover a small portion of an arc.  
 
 The initial screen for this mode is as follows: ![](./initialPart2.png)  
+
 After creating a circle, the *Generate* button is relabeled to *Clear* and will clear the marked points and generated circle.  The following image shows an example:  ![](part2example.png)  
 # Top-level Documentation
 The code has been developed on Visual Studio 2019 and uses Qt 5.12.3.  It should compile and run as is, on Mac and Linux.  
